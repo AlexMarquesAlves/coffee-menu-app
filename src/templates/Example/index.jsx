@@ -1,10 +1,10 @@
 import P from 'prop-types';
 import * as Styled from './styles';
 
-export const App = ({ children }) => {
+export const Example = ({ children }) => {
   return <Styled.Container>{children}</Styled.Container>;
 };
 
-App.propTypes = {
+Example.propTypes = {
   children: P.node.isRequired,
 };
