@@ -1,5 +1,6 @@
-import styled from 'styled-components';
+/* eslint-disable no-unused-vars */
+import styled, { css } from 'styled-components';
 
-export const Container = styled.h1`
-  background: ${({ theme }) => theme.colors.primary};
+export const Container = styled.div`
+  ${({ theme }) => css``}
 `;
