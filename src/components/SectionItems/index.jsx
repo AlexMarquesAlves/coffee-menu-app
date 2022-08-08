@@ -2,16 +2,23 @@
 import P from 'prop-types';
 import * as Styled from './styles';
 
-export const SectionItems = ({ children }) => {
+export const SectionItems = ({ title, description, price }) => {
   return (
     <Styled.Container>
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
+      <li>
+        <div className="details">
+          <h3>{title}</h3>
+          <p className="description">{description}</p>
+        </div>
+
+        <strong className="price">R$ {price}</strong>
+      </li>
     </Styled.Container>
   );
 };
 
 SectionItems.propTypes = {
-  children: P.node,
+  title: P.string.isRequired,
+  description: P.string.isRequired,
+  price: P.string.isRequired,
 };

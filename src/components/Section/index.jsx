@@ -7,7 +7,17 @@ export const Section = ({ children }) => {
   return (
     <Styled.Container>
       <h1>Brunch</h1>
-      <SectionItems />
+      <SectionItems
+        title="Waffle Doce"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        price="37.70"
+      />
+
+      <SectionItems
+        title="Maça Doce"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        price="17.70"
+      />
     </Styled.Container>
   );
 };
