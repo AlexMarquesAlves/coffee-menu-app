@@ -3,6 +3,6 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    text-align: center;
+    /* text-align: center; */
   `}
 `;
