@@ -1,17 +1,17 @@
 /* eslint-disable no-unused-vars */
 import P from 'prop-types';
-import { SectionItems } from '../SectionItems';
 import * as Styled from './styles';
 
-export const Section = ({ children }) => {
+export const SectionItems = ({ children }) => {
   return (
     <Styled.Container>
-      <h1>Brunch</h1>
-      <SectionItems />
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
     </Styled.Container>
   );
 };
 
-Section.propTypes = {
+SectionItems.propTypes = {
   children: P.node,
 };
