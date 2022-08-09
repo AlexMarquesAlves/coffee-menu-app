@@ -4,12 +4,16 @@ import styled, { css } from 'styled-components';
 export const Container = styled.ul`
   ${({ theme }) => css`
 
-    li{
+    li {
       margin-bottom: 16px;
       display: flex;
 
-      .details{
+      .details {
         max-width: 240px;
+
+        h3 {
+          margin-bottom: 8px;
+        }
       }
     }
   `}

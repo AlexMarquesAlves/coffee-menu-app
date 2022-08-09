@@ -13,6 +13,7 @@ export const Container = styled.section`
       text-align: center;
 
       margin-bottom: 24px;
+      text-transform: uppercase;
     }
   `}
 `;
