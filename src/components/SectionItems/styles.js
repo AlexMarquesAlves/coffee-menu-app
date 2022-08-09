@@ -2,5 +2,15 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.ul`
-  ${({ theme }) => css``}
+  ${({ theme }) => css`
+
+    li{
+      margin-bottom: 16px;
+      display: flex;
+
+      .details{
+        max-width: 240px;
+      }
+    }
+  `}
 `;
