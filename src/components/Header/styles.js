@@ -8,5 +8,14 @@ export const Container = styled.header`
     padding: 32px 0;
     text-align: center;
 
+    h1 {
+      margin-bottom: 4px;
+      text-transform: uppercase;
+
+      span {
+      color: #995000;
+    }
+    }
+
   `}
 `;
