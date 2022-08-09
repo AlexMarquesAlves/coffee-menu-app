@@ -5,6 +5,7 @@ export const Container = styled.section`
   ${({ theme }) => css`
     max-width: 300px;
     margin: 0 auto;
+    margin-bottom: 24px;
 
     h2 {
       background-color: #fed7aa;
