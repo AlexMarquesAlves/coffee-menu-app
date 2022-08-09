@@ -15,6 +15,12 @@ export const Section = ({ children }) => {
         />
 
         <SectionItems
+          title="Arroz Doce"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="17.70"
+        />
+
+        <SectionItems
           title="Maça Doce"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           price="17.70"
@@ -23,16 +29,23 @@ export const Section = ({ children }) => {
 
       <Styled.Container>
         <h2>Bebidas</h2>
-        <SectionItems
-          title="Vinho"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          price="37.70"
-        />
 
         <SectionItems
           title="Água com gás"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           price="17.70"
+        />
+
+        <SectionItems
+          title="Suco de Alface"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="17.70"
+        />
+
+        <SectionItems
+          title="Vinho Fino"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="37.70"
         />
       </Styled.Container>
     </>

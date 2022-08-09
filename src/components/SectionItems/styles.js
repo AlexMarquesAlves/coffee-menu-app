@@ -13,6 +13,7 @@ export const Container = styled.ul`
 
         h3 {
           margin-bottom: 8px;
+          text-transform: uppercase;
         }
       }
     }
