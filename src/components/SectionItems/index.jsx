@@ -11,7 +11,7 @@ export const SectionItems = ({ title, description, price }) => {
           <p className="description">{description}</p>
         </div>
 
-        <strong className="price">R$ {price}</strong>
+        <strong className="price">R${price}</strong>
       </li>
     </Styled.Container>
   );

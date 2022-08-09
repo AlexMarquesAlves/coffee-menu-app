@@ -5,20 +5,37 @@ import * as Styled from './styles';
 
 export const Section = ({ children }) => {
   return (
-    <Styled.Container>
-      <h2>Brunch</h2>
-      <SectionItems
-        title="Waffle Doce"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        price="37.70"
-      />
+    <>
+      <Styled.Container>
+        <h2>Brunch</h2>
+        <SectionItems
+          title="Waffle Doce"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="37.70"
+        />
 
-      <SectionItems
-        title="Maça Doce"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        price="17.70"
-      />
-    </Styled.Container>
+        <SectionItems
+          title="Maça Doce"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="17.70"
+        />
+      </Styled.Container>
+
+      <Styled.Container>
+        <h2>Bebidas</h2>
+        <SectionItems
+          title="Vinho"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="37.70"
+        />
+
+        <SectionItems
+          title="Água com gás"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          price="17.70"
+        />
+      </Styled.Container>
+    </>
   );
 };
 
