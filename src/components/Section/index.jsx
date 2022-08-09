@@ -6,7 +6,7 @@ import * as Styled from './styles';
 export const Section = ({ children }) => {
   return (
     <Styled.Container>
-      <h1>Brunch</h1>
+      <h2>Brunch</h2>
       <SectionItems
         title="Waffle Doce"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
