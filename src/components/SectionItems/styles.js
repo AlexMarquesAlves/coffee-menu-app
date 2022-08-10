@@ -14,6 +14,14 @@ export const Container = styled.ul`
         h3 {
           margin-bottom: 8px;
           text-transform: uppercase;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        p {
+          color: rgba(0,0,0, 0.6);
+          font-size: 14px;
+          line-height: 21px;
         }
       }
     }

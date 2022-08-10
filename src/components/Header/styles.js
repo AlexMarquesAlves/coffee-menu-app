@@ -11,10 +11,12 @@ export const Container = styled.header`
     h1 {
       margin-bottom: 4px;
       text-transform: uppercase;
+      font-size: 28px;
+      line-height: 31px;
 
       span {
-      color: #995000;
-    }
+        color: #995000;
+      }
     }
 
   `}

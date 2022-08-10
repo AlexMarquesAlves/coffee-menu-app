@@ -18,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
       h3,
       .price{
         font-family: 'Roboto Serif', serif;
+        color: #2d2c2a;
       }
   }
   }

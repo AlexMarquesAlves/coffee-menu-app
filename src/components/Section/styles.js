@@ -11,6 +11,7 @@ export const Container = styled.section`
       background-color: #fed7aa;
       padding: 8px 16px;
       text-align: center;
+      font-size: 18px;
 
       margin-bottom: 24px;
       text-transform: uppercase;
