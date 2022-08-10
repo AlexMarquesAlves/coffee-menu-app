@@ -6,8 +6,8 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
 
     body{
-    background-color: #ffedd5;
-
+      background-color: #ffedd5;
+      font-family: 'Roboto', sans-serif;
 
     ul{
       list-style: none;
