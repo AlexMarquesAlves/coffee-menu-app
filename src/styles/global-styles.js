@@ -9,9 +9,16 @@ export const GlobalStyles = createGlobalStyle`
       background-color: #ffedd5;
       font-family: 'Roboto', sans-serif;
 
-    ul{
-      list-style: none;
-    }
+      ul{
+        list-style: none;
+      }
+
+      h1,
+      h2,
+      h3,
+      .price{
+        font-family: 'Roboto Serif', serif;
+      }
   }
   }
 `;
